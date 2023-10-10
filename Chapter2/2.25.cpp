@@ -9,9 +9,9 @@ int main() {
 	cout << "Please input two integers: ";
 	cin >> a >> b;
 	if (a%b == 0)
-		cout << "µÚÒ»¸öÊıÊÇµÚ¶ş¸öÊıµÄ±¶Êı¡£" << endl;
+		cout << "ç¬¬ä¸€ä¸ªæ•°æ˜¯ç¬¬äºŒä¸ªæ•°çš„å€æ•°ã€‚" << endl;
 	else
-		cout << "µÚÒ»¸öÊı²»ÊÇµÚ¶ş¸öÊıµÄ±¶Êı¡£" << endl;
+		cout << "ç¬¬ä¸€ä¸ªæ•°ä¸æ˜¯ç¬¬äºŒä¸ªæ•°çš„å€æ•°ã€‚" << endl;
 	system("pause");
 	return 0;
 }
