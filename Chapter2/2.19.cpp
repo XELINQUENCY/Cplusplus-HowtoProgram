@@ -48,7 +48,7 @@ int main() {
 		}
 	}
 	cout << "Sum is " << a + b + c << "\n";
-	cout << "Average is " << (a + b + c) / 3 << "\n"; //int³ı·¨Ö»ÄÜÊä³öÕûÊıÒ²Ì«ÀëÆ×ÁË
+	cout << "Average is " << (a + b + c) / 3 << "\n"; //inté™¤æ³•åªèƒ½è¾“å‡ºæ•´æ•°ä¹Ÿå¤ªç¦»è°±äº†
 	cout << "Product is " << a * b*c << "\n";
 	cout << "Smallest is " << smallest << "\n";
 	cout << "Largest is " << biggest << endl;
