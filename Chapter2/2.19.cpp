@@ -5,7 +5,7 @@ using namespace std;
 double a = 0;
 double b = 0;
 double c = 0;
-int biggest = 0;
+int largest = 0;
 int smallest = 0;
 
 int main() {
@@ -17,32 +17,32 @@ int main() {
 	}
 	if (a > b) {
 		if (b > c) {
-			biggest = a;
+			largest = a;
 			smallest = c;
 		}
 		else {
 			if (a > c) {
-				biggest = a;
+				largest = a;
 				smallest = b;
 			}
 			else {
-				biggest = c;
+				largest = c;
 				smallest = b;
 			}
 		}
 	}
 	else {
 		if (a > c) {
-			biggest = b;
+			largest = b;
 			smallest = c;
 		}
 		else {
 			if (b > c) {
-				biggest = b;
+				largest = b;
 				smallest = a;
 			}
 			else {
-				biggest = c;
+				largest = c;
 				smallest = a;
 			}
 		}
@@ -51,7 +51,7 @@ int main() {
 	cout << "Average is " << (a + b + c) / 3 << "\n"; //int除法只能输出整数也太离谱了
 	cout << "Product is " << a * b*c << "\n";
 	cout << "Smallest is " << smallest << "\n";
-	cout << "Largest is " << biggest << endl;
+	cout << "Largest is " << largest << endl;
 	system("pause");
 	return 0;
 }
